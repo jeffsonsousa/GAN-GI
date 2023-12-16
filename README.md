@@ -15,14 +15,14 @@ Place the images that served as the basis for the GAN within the data directory
 > [!WARNING]
 > <sup> Create a folder in the root of the project with the name ./data and place your images for model training. The image build will fail if it does not find this directory in the project root. Some extensions used in tests were: png, JPG, JPEG. Feel free to test with other extensions, don't worry about the image resolution, the algorithm has a processing function that will be responsible for pre-processing the data.</sup>
 
-## 2. Upload local image to test the model
+## 2. Run local image to test the model
 ```
 docker build --no-cache -f Dockerfile -t gan-gi:1.0 .
 ```
 > [!NOTE]
 > <sup> Depending on your machine and internet connection, this step can take from 30 to 120 minutes. Be patient.</sup>
 
-## 3. Upload the local container to test the model
+## 3. Run the local container to test the model
 ```
 docker network create gan-network
 cd start-GAN/
