@@ -5,7 +5,7 @@ Using a Generative Adversarial Network to Generate Images for Academic Works bas
 - Docker-Compose
 
 > [!NOTE]
-> <sup> This work Using a Generative Adversarial Network to Generate Images for Academic Final Work is based in job of Madhu Sanjeevi's, 2019 [See more](https://github.com/crypto-code/GAN)</sup>
+> <sup> This work Using a Generative Adversarial Network to Generate Images for Academic Final Work is based in job of Madhu Sanjeevi's, 2019 [See more](https://github.com/Madhu009/Deep-math-machine-learning.ai/tree/master/Gan's)</sup>
 
 # Build Start-GAN 
 
