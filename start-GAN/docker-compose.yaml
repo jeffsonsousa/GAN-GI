@@ -1,0 +1,22 @@
+---
+version: '3.8'
+
+services:
+  gan-gi:
+    image: gan-gi:1.0
+    build:
+      context: ../
+      dockerfile: Dockerfile
+    container_name: gan-gi
+    env_file:
+      - '.env'
+    volumes:
+      - ../data/:/home/data
+      - ../images/:/home/images
+    networks:
+      - default
+
+networks:
+  default:
+    name: gan-network
+    external: true
